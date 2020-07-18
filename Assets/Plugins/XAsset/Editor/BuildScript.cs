@@ -74,7 +74,7 @@ namespace Plugins.XAsset.Editor
                     return "Windows";
                 case BuildTarget.StandaloneOSXIntel:
                 case BuildTarget.StandaloneOSXIntel64:
-                case BuildTarget.StandaloneOSXUniversal:
+                case BuildTarget.StandaloneOSX:
                     return "OSX";
                 default:
                     return null;
@@ -427,7 +427,7 @@ namespace Plugins.XAsset.Editor
 
                 case BuildTarget.StandaloneOSXIntel:
                 case BuildTarget.StandaloneOSXIntel64:
-                case BuildTarget.StandaloneOSXUniversal:
+                case BuildTarget.StandaloneOSX:
                     return "/" + name + ".app";
 
                 case BuildTarget.WebGL:
